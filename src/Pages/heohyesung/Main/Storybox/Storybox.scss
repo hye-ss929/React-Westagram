@@ -1,0 +1,23 @@
+@import "../../../../Styles/common.scss";
+
+.Storybox {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+
+  .imgstory {
+    flex-direction: row;
+    width: 60px;
+    height: 60px;
+    margin:15px 0 0 15px;
+    border: 4px double #CE2D87;
+    border-radius: 100%;
+  }
+
+  .textstory {
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+    font-size: small;
+  }
+}

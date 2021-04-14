@@ -1,0 +1,149 @@
+@import "../../../Styles/common.scss";
+
+.Main {
+  $box-color: #FFFFFF;
+  $small-font: #8E8E8E;
+  margin: 0;
+  background-color: $back-color;
+  
+  i {
+    margin-top: 5px;
+  }
+  
+  .navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;  
+    padding-left: 180px;
+    padding-right: 280px;
+    background-color: $box-color;
+    border: 1px solid $border-color;
+
+    .westalogo{
+        padding-left: 55px;
+        font-size: 25px;
+        font-family: 'Lobster', cursive;
+    }
+
+    .a {
+        position: absolute;
+        margin-left: 485px;
+        color:#A5A7AB;
+        font-size: x-small;
+        z-index: 1;
+
+        .fas fa-search {
+            width: 10px;
+            height: 10px;
+        }
+    }
+
+    .searchingInput {
+        position: relative;
+        width: 21%;
+        margin-left: 70px;
+        padding: 5px 10px;
+        background-color: $back-color;
+        border: 1px solid $border-color;
+        border-radius: 2px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        margin: 13px 0;
+    }
+
+    .mainuser {
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+    }
+  }
+
+  ul {
+      padding: 0;
+      font-size: 25px;
+    }
+
+  i {
+      margin-right: 15px;
+    }
+
+    .mainbigbox {
+        display: flex;
+        justify-content: space-between;
+
+        .leftbox {
+            width:600px;
+            height: 900px;
+            margin-left: 250px;
+
+            .storyboxContainer {
+                display: flex;
+                height: 110px;
+                width: 100%;
+                margin-top: 80px;
+                background-color: $box-color;
+                border: 1px solid $border-color;
+            }             
+        }
+    }
+
+    .emptyBox {
+        color : rgb(192, 208, 253);
+    }
+
+    .writeBox {
+        color:rgb(8, 150, 247);
+    }
+
+    .rightbox {
+        width: 525px;
+        height: 900px;
+        margin-right: 50px;
+        padding-right: 210px;
+
+        .side {
+            height: 100px;
+            margin: 80px 0 0 0;
+
+            .imgsideuser {
+                float: left;
+                width: 55px;
+                height: 55px;
+                margin: 25px 0 0 15px;
+                border-radius: 100%;
+            }
+
+            .sideuserid {
+                display: inline-block;
+                margin: 50px 70px 0 30px;
+                font-weight: bold;
+            }
+    
+            .endtextblue {
+                display: inline-block;
+                margin-right: 0;
+                color: #1A9FF7;
+                font-size: 13px;
+            }
+        }
+    
+        .sidetext {
+            display: inline-block;
+            margin: 50px 100px 16px 10px;
+            color: #909090;
+        }
+        
+        .endtext {
+            display: inline-block;
+            margin-right: 0;
+            padding-left: 5px;
+            font-size: small;
+        }
+    }
+}

@@ -1,0 +1,88 @@
+@import "../../../Styles/common.scss";
+
+.Login{
+  $box-color: #FFFFFF;
+  $small-font: #8E8E8E;
+
+.logincontainer {
+  width: 350px;
+  height: 410px;
+  margin: 80px auto;
+  background-color: $box-color;
+  border: 1px solid $border-color;
+
+  p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 8px;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  input, button {
+  position: relative;
+  border: 1px solid $border-color;
+  background-color: $back-color;
+  border-radius: 2px;
+  padding: 10px 12px;
+  margin-left: 35px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  }
+
+  input {
+    width: 70%;
+  }
+
+  .loginbox {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 7px 12px;
+  }
+
+  button {
+    width: 78%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 7px 12px;
+    color:white;
+    background-color: rgb(192, 223, 253);
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+  } 
+
+  .tureColor {
+    background-color:rgb(8, 150, 247);
+  }
+
+  .falseColor {
+    background-color: rgb(192, 223, 253);
+  }
+
+    .linestyle {
+      margin: 10px 0px;
+      color:rgb(172, 172, 172);
+      font-size: 13px;
+      text-align: center;
+
+      h6 {
+        font-weight: normal;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .bottomtext {
+    margin-top: 30px;
+    color: #385184;
+    text-align: center;
+
+    span {
+        font-weight: bolder;
+        font-size: 15px;
+    }
+  }
+}

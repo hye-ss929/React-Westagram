@@ -1,0 +1,22 @@
+.Recommend {
+  display: flex;
+
+  .smallimg {
+    margin: 5px 5px 0 20px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100px;
+  }
+
+  .smalltext {
+    display: inline-block;
+    margin: 16px 100px 16px 15px;
+    font-weight: bold;
+  }
+
+  .endtextblueside {
+    margin-top: 20px;
+    color: #1A9FF7;
+    font-size: 13px;
+  }
+}

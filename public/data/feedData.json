@@ -1,0 +1,29 @@
+[
+  {
+    "id":1,
+    "userimg": "/images/heohyesung/mainuser.png",
+    "userid":"2929_9999",
+    "feedimg":"/images/heohyesung/qingdao.jpg",
+    "countLike":"좋아요 200개",
+    "userName":"2929_9999",
+    "text":"2019년 12월 마지막 해외여행 ➡️ 칭다오✈️"
+  },
+  {
+    "id":2,
+    "userimg": "/images/heohyesung/mainuser.png",
+    "userid":"2929_9999",
+    "feedimg":"/images/heohyesung/jeju.jpg",
+    "countLike":"좋아요 100개",
+    "userName":"2929_9999",
+    "text":"ᕕ( ᐛ )ᕗ 푸릇푸릇 제주 🌿"
+  },
+  {
+    "id":3,
+    "userimg": "/images/heohyesung/mainuser.png",
+    "userid":"2929_9999",
+    "feedimg":"/images/heohyesung/busan.jpg",
+    "countLike":"좋아요 300개",
+    "userName":"2929_9999",
+    "text":"부산 더베이101에서 한잔🍻"
+  }
+]
